@@ -4,10 +4,16 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: gray;
+}
+.marca{
+    text-align: left;
+    margin: 2px;
 }
 .calculadora{
+    background-color: white;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 300px;
     padding: 10px;
     text-align: center;
