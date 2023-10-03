@@ -4,22 +4,18 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: gray;
-}
-.marca{
-    text-align: left;
-    margin: 2px;
+    background-color: white;
 }
 .calculadora{
-    background-color: white;
+    background-color: gray;
     border: 2px solid black;
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
     padding: 10px;
     text-align: center;
 }
 #display{
-    width: 100%;
+    width: 85%;
     margin-bottom: 10px;
     font-size: 24px;
 }
@@ -29,8 +25,25 @@ button{
     font-size: 20px;
     margin: 5px;
     cursor: pointer;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
 }
 .botoes{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
+}
+.marca{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.marca-calc{
+    color: white;
+    font-weight: bolder;
+    margin: 0 0 15px 10px;
+}
+.botao-limpar{
+    color: rgb(255, 75, 75);
 }
